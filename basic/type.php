@@ -6,7 +6,7 @@ declare(strict_types=1);
 
 // boolean false = 0, "", "0", [], 0.0, false, null, empty object
 // boolean true = everything else
-$i = 4
+$i = 4;
 $f = (string) $i; // casting
 
 //compound types

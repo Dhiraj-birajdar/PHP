@@ -1,0 +1,1 @@
+PHP is a server side scripted language.
