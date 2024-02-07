@@ -25,17 +25,10 @@
             echo "<h4>".$key . ": " . $value ."</h4>";
         }
         echo "<hr>";
-        foreach ($_FILES as $key => $value) {
+        foreach ($_FILES['file'] as $key => $value) {
             echo "<h4>".$key . ": " . $value ."</h4>";
         }
     }
     ?>
-
-    <?php
-$p = "basic/";
-$d = opendir("basic/");
-$s = readdir($d);
-echo $s."<br>hello";
-?>
 </body>
 </html>
