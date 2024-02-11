@@ -1,4 +1,5 @@
 <?php
+// header("Location: http://www.youtube.com");
 function sanitize($data){
     return htmlspecialchars(stripslashes(trim($data))) ;
 }
