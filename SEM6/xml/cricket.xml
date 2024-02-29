@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<CricketTeam>
+    <Country name="india">
+        <captain>m s dhoni</captain>
+        <wickets>45</wickets>
+        <run>244</run>
+    </Country>
+    <Country name="england">
+        <captain>mark zuck</captain>
+        <wickets>45</wickets>
+        <run>244</run>
+    </Country>
+</CricketTeam>

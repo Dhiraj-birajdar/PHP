@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bookstore><book category="food"><title lang="en">Everyday Italian</title><author>Giada De Laurentiis</author><year>2005</year><price>30.00</price></book><book category="cooking"><title lang="en">Everyday Italian</title><author>Giada De Laurentiis</author><year>2005</year><price>30.00</price></book></bookstore>
+<!-- // Assuming $xmlDoc is a DOMDocument object containing the loaded XML
+
+$firstBookElement = $xmlDoc->getElementsByTagName("book")->item(0);
+
+if ($firstBookElement) {
+  $categoryAttribute = $firstBookElement->attributes->getNamedItem("category");
+
+  if ($categoryAttribute) {
+    $categoryAttribute->nodeValue = "food";
+  } else {
+    echo "Category attribute not found in the first book element.";
+  }
+} else {
+  echo "No book element found in the XML document.";
+} -->
